@@ -1,0 +1,24 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: gainsboro;
+    border: 1px solid red;
+    box-sizing: border-box;
+  }
+h1{
+    background-color: darkolivegreen;
+    color: white;
+    padding-left: 10px;
+}
+.recipe-list{
+    color: black;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
+.recipe-list li{
+    padding-top: 4px;
+}
+img.recipe-main-img{
+    width: 400px;
+    height: auto;
+}
